@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Email Login Page
-//
-//  Created by Kavsoft on 08/05/20.
-//  Copyright © 2020 Kavsoft. All rights reserved.
-//
 
 import SwiftUI
 import Firebase
