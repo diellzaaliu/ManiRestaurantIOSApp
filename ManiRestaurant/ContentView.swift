@@ -24,29 +24,75 @@ struct ContentView_Previews: PreviewProvider {
 struct Home: View{
     
     @State var show = false
+    @State var status = UserDefaults.standard.value(forKey: "status") as? Bool ?? false
     
     var body: some View{
         
         NavigationView{
             
-            ZStack{
+            VStack{
                 
-                NavigationLink(destination: SignUp(show: self.$show), isActive: self.$show) {
+                if self.status{
                     
-                    Text("")
-                
+                }else{
+                    
+                    ZStack{
+                        
+                        NavigationLink(destination: SignUp(show: self.$show), isActive: self.$show) {
+                            
+                            Text("")
+                        
+                        }
+                        .hidden()
+                        
+                        Login(show: self.$show)
+                    }
+
                 }
-                .hidden()
-                
-                Login(show: self.$show)
             }
             .navigationBarTitle("")
             .navigationBarHidden(true)
             .navigationBarBackButtonHidden(true)
+            .onAppear {
+                
+                NotificationCenter.default.addObserver(forName: NSNotification.Name("status"), object: nil, queue: .main){ (_) in
+                    
+                    self.status = UserDefaults.standard.value(forKey: "status") as? Bool ?? false
+                    
+            }
         }
     }
     
 }
+    struct Homescreen : View{
+        
+        var body : some View{
+            
+            VStack{
+                
+                Text("Welcome to Restaurant Mani App")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black.opacity(0.7))
+                Button(action: {
+                    
+                    try! Auth.auth().signOut()
+                    UserDefaults.standard.set(false, forKey: "status")
+                    NotificationCenter.default.post(name: NSNotification.Name("status"), object: nil)
+                    
+                }){
+                    
+                    Text("Log out")
+                        .foregroundColor(.white)
+                        .padding(.vertical)
+                        .frame(width: UIScreen.main.bounds.width - 50)
+                }
+                .background(Color("Color"))
+                .cornerRadius(10)
+                .padding(.top, 25)
+            }
+        }
+    }
 struct Login : View {
     
     @State var color = Color.black.opacity(0.7)
@@ -149,7 +195,7 @@ struct Login : View {
                         .fontWeight(.bold)
                         .foregroundColor(Color("Color"))
                 }
-                padding()
+                .padding()
             }
             
             if self.alert{
@@ -171,6 +217,8 @@ struct Login : View {
                     self.alert.toggle()
                 }
                 print("success")
+                UserDefaults.standard.set(true,forKey: "status")
+                NotificationCenter.default.post(name: NSNotification.Name("status"), object: nil)
             }
             
         }else{
@@ -349,4 +397,5 @@ struct  ErrorView: View{
         }
         .background(Color.black.opacity(0.35).edgesIgnoringSafeArea(.all))
     }
+}
 }
