@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
     var body: some View {
@@ -162,7 +163,15 @@ struct Login : View {
         
         if self.email != "" && self.pass != ""{
             
-            
+            Auth.auth().signIn(withEmail: self.email, password: self.pass){ (res, err) in
+                
+                if err != nil{
+                    
+                    self.error = err!.localizedDescription
+                    self.alert.toggle()
+                }
+                print("success")
+            }
             
         }else{
             self.error = "Please fill all the fields properly"

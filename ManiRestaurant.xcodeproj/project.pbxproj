@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,10 @@
 		7D2F6E0E2685EB8B000DE8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F6E0C2685EB8B000DE8A9 /* LaunchScreen.storyboard */; };
 		7D2F6E192685EB8C000DE8A9 /* ManiRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F6E182685EB8C000DE8A9 /* ManiRestaurantTests.swift */; };
 		7D2F6E242685EB8C000DE8A9 /* ManiRestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F6E232685EB8C000DE8A9 /* ManiRestaurantUITests.swift */; };
+		7D2F6E322685F4AD000DE8A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F6E312685F4AD000DE8A9 /* GoogleService-Info.plist */; };
+		7E7282B3692A9652D982A12A /* Pods_ManiRestaurant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392EAA1419BD43796127C2FB /* Pods_ManiRestaurant.framework */; };
+		9CBB82DDAF28ED0505E248EF /* Pods_ManiRestaurant_ManiRestaurantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBF647D82346B2619AD003B /* Pods_ManiRestaurant_ManiRestaurantUITests.framework */; };
+		CD2CCF3F41F8412BCE8E6D9E /* Pods_ManiRestaurantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F256475221439FA785FF07C6 /* Pods_ManiRestaurantTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		392EAA1419BD43796127C2FB /* Pods_ManiRestaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManiRestaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50388950B0F4C76D269360B4 /* Pods-ManiRestaurant-ManiRestaurantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManiRestaurant-ManiRestaurantUITests.release.xcconfig"; path = "Target Support Files/Pods-ManiRestaurant-ManiRestaurantUITests/Pods-ManiRestaurant-ManiRestaurantUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7D2F6DFB2685EB8A000DE8A9 /* ManiRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManiRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2F6DFE2685EB8A000DE8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D2F6E002685EB8A000DE8A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,14 @@
 		7D2F6E1F2685EB8C000DE8A9 /* ManiRestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManiRestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2F6E232685EB8C000DE8A9 /* ManiRestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManiRestaurantUITests.swift; sourceTree = "<group>"; };
 		7D2F6E252685EB8C000DE8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2F6E312685F4AD000DE8A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9881209DB368E97F388F0609 /* Pods-ManiRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManiRestaurant.debug.xcconfig"; path = "Target Support Files/Pods-ManiRestaurant/Pods-ManiRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		AA2485E72429438FC2C81175 /* Pods-ManiRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManiRestaurant.release.xcconfig"; path = "Target Support Files/Pods-ManiRestaurant/Pods-ManiRestaurant.release.xcconfig"; sourceTree = "<group>"; };
+		BEBF647D82346B2619AD003B /* Pods_ManiRestaurant_ManiRestaurantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManiRestaurant_ManiRestaurantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC52ADBEED727B05256CB9C6 /* Pods-ManiRestaurant-ManiRestaurantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManiRestaurant-ManiRestaurantUITests.debug.xcconfig"; path = "Target Support Files/Pods-ManiRestaurant-ManiRestaurantUITests/Pods-ManiRestaurant-ManiRestaurantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD34C70FF6B1C6CE0737BE4 /* Pods-ManiRestaurantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManiRestaurantTests.release.xcconfig"; path = "Target Support Files/Pods-ManiRestaurantTests/Pods-ManiRestaurantTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8A6BA9DE5BD84F9718A5653 /* Pods-ManiRestaurantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManiRestaurantTests.debug.xcconfig"; path = "Target Support Files/Pods-ManiRestaurantTests/Pods-ManiRestaurantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F256475221439FA785FF07C6 /* Pods_ManiRestaurantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManiRestaurantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7282B3692A9652D982A12A /* Pods_ManiRestaurant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2CCF3F41F8412BCE8E6D9E /* Pods_ManiRestaurantTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBB82DDAF28ED0505E248EF /* Pods_ManiRestaurant_ManiRestaurantUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FC2C0E154D818A39F7A05BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9881209DB368E97F388F0609 /* Pods-ManiRestaurant.debug.xcconfig */,
+				AA2485E72429438FC2C81175 /* Pods-ManiRestaurant.release.xcconfig */,
+				CC52ADBEED727B05256CB9C6 /* Pods-ManiRestaurant-ManiRestaurantUITests.debug.xcconfig */,
+				50388950B0F4C76D269360B4 /* Pods-ManiRestaurant-ManiRestaurantUITests.release.xcconfig */,
+				E8A6BA9DE5BD84F9718A5653 /* Pods-ManiRestaurantTests.debug.xcconfig */,
+				CCD34C70FF6B1C6CE0737BE4 /* Pods-ManiRestaurantTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D2F6DF22685EB8A000DE8A9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				7D2F6E172685EB8C000DE8A9 /* ManiRestaurantTests */,
 				7D2F6E222685EB8C000DE8A9 /* ManiRestaurantUITests */,
 				7D2F6DFC2685EB8A000DE8A9 /* Products */,
+				6FC2C0E154D818A39F7A05BE /* Pods */,
+				8FD3AAC6C4FC4AA3EFC48A51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +133,7 @@
 		7D2F6DFD2685EB8A000DE8A9 /* ManiRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				7D2F6E312685F4AD000DE8A9 /* GoogleService-Info.plist */,
 				7D2F6DFE2685EB8A000DE8A9 /* AppDelegate.swift */,
 				7D2F6E002685EB8A000DE8A9 /* SceneDelegate.swift */,
 				7D2F6E022685EB8A000DE8A9 /* ContentView.swift */,
@@ -139,6 +172,16 @@
 			path = ManiRestaurantUITests;
 			sourceTree = "<group>";
 		};
+		8FD3AAC6C4FC4AA3EFC48A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				392EAA1419BD43796127C2FB /* Pods_ManiRestaurant.framework */,
+				BEBF647D82346B2619AD003B /* Pods_ManiRestaurant_ManiRestaurantUITests.framework */,
+				F256475221439FA785FF07C6 /* Pods_ManiRestaurantTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D2F6E282685EB8C000DE8A9 /* Build configuration list for PBXNativeTarget "ManiRestaurant" */;
 			buildPhases = (
+				D487A0CC742C852BFE938423 /* [CP] Check Pods Manifest.lock */,
 				7D2F6DF72685EB8A000DE8A9 /* Sources */,
 				7D2F6DF82685EB8A000DE8A9 /* Frameworks */,
 				7D2F6DF92685EB8A000DE8A9 /* Resources */,
+				2332FBAC7365AD2FFF76FEC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D2F6E2B2685EB8C000DE8A9 /* Build configuration list for PBXNativeTarget "ManiRestaurantTests" */;
 			buildPhases = (
+				C1A2E88914D47A1180E91A22 /* [CP] Check Pods Manifest.lock */,
 				7D2F6E102685EB8C000DE8A9 /* Sources */,
 				7D2F6E112685EB8C000DE8A9 /* Frameworks */,
 				7D2F6E122685EB8C000DE8A9 /* Resources */,
@@ -181,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D2F6E2E2685EB8C000DE8A9 /* Build configuration list for PBXNativeTarget "ManiRestaurantUITests" */;
 			buildPhases = (
+				59C0A8AAD4EE05D098DA1E35 /* [CP] Check Pods Manifest.lock */,
 				7D2F6E1B2685EB8C000DE8A9 /* Sources */,
 				7D2F6E1C2685EB8C000DE8A9 /* Frameworks */,
 				7D2F6E1D2685EB8C000DE8A9 /* Resources */,
+				94BDCDAB7804240F444D789F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D2F6E0E2685EB8B000DE8A9 /* LaunchScreen.storyboard in Resources */,
+				7D2F6E322685F4AD000DE8A9 /* GoogleService-Info.plist in Resources */,
 				7D2F6E0B2685EB8B000DE8A9 /* Preview Assets.xcassets in Resources */,
 				7D2F6E082685EB8B000DE8A9 /* Assets.xcassets in Resources */,
 			);
@@ -263,6 +312,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2332FBAC7365AD2FFF76FEC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManiRestaurant/Pods-ManiRestaurant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManiRestaurant/Pods-ManiRestaurant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManiRestaurant/Pods-ManiRestaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C0A8AAD4EE05D098DA1E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManiRestaurant-ManiRestaurantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94BDCDAB7804240F444D789F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManiRestaurant-ManiRestaurantUITests/Pods-ManiRestaurant-ManiRestaurantUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManiRestaurant-ManiRestaurantUITests/Pods-ManiRestaurant-ManiRestaurantUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManiRestaurant-ManiRestaurantUITests/Pods-ManiRestaurant-ManiRestaurantUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A2E88914D47A1180E91A22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManiRestaurantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D487A0CC742C852BFE938423 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManiRestaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D2F6DF72685EB8A000DE8A9 /* Sources */ = {
@@ -437,6 +589,7 @@
 		};
 		7D2F6E292685EB8C000DE8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9881209DB368E97F388F0609 /* Pods-ManiRestaurant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +611,7 @@
 		};
 		7D2F6E2A2685EB8C000DE8A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2485E72429438FC2C81175 /* Pods-ManiRestaurant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +633,7 @@
 		};
 		7D2F6E2C2685EB8C000DE8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A6BA9DE5BD84F9718A5653 /* Pods-ManiRestaurantTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +656,7 @@
 		};
 		7D2F6E2D2685EB8C000DE8A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD34C70FF6B1C6CE0737BE4 /* Pods-ManiRestaurantTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +679,7 @@
 		};
 		7D2F6E2F2685EB8C000DE8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC52ADBEED727B05256CB9C6 /* Pods-ManiRestaurant-ManiRestaurantUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +700,7 @@
 		};
 		7D2F6E302685EB8C000DE8A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50388950B0F4C76D269360B4 /* Pods-ManiRestaurant-ManiRestaurantUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
