@@ -15,7 +15,11 @@ The application will contain the following features:
 The project is developed using Xcode IDE
 
 # Screenshots
-## ⚡ Login
+## ⚡ LogIn
+!(245129527_2405617789573512_2655687919473667355_n.png)
+
+
+## ⚡ SignUp
 ![205938879_2840222876290842_3900742212440551592_n (1)](https://user-images.githubusercontent.com/44116298/123434805-27f03e00-d5cd-11eb-8739-14dcc359e105.png)
 
 ## ⚡ Welcome Page
