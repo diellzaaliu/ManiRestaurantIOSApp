@@ -16,7 +16,8 @@ The project is developed using Xcode IDE
 
 # Screenshots
 ## ⚡ LogIn
-!(245129527_2405617789573512_2655687919473667355_n.png)
+![205938879_2840222876290842_3900742212440551592_n (1)](https://user-images.githubusercontent.com/245129527_2405617789573512_2655687919473667355_n.png)
+
 
 
 ## ⚡ SignUp
